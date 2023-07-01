@@ -1,0 +1,825 @@
+
+.obramowanie {
+    -webkit-text-stroke: 1px black;
+    color: whitesmoke;
+
+}
+
+.logo {
+    max-width: 100%;
+    margin-top: 7px;
+    margin-left: 40px;
+    transition: transform 2s ease;
+}
+
+
+.logo:hover {
+    transform: rotate(360deg);
+    
+}
+
+.linia {
+    width: 20%;
+}
+
+.linia1 {
+    width: 70%;
+}
+
+.linia2 {
+    width: 35%;
+    text-align: center;
+}
+
+.pierwszytext {
+    text-align: center;
+    font-size: 150%;
+    font-family: Verdana;
+}
+.pierwszytext1 {
+    text-align: center;
+    font-size: 130%;
+    font-weight: 100;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+
+.textbox {
+    background-color:whitesmoke;
+    border: solid;
+    border-radius: 8px;
+    border-color: black;
+    border-width: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 30px;
+}
+
+.gorastrony {
+    background-image:radial-gradient(rgb(23, 109, 69),rgb(21, 86, 56));
+    height: 60px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 1fr 50px;
+    position: fixed;
+    width: 100%;
+    opacity: 95%;
+    z-index: 1;
+}
+
+
+
+.bodymain {
+    background-color: whitesmoke;
+    font-family:Helvetica;
+    background-image: url('etiopia/lightmode.jpeg'); /* źródło: https://i.pinimg.com/originals/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg */
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.srodek0 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Comic Sans MS;
+    width: 100%;
+
+}
+
+.srodek1 {
+    background-image:radial-gradient(rgb(39, 88, 157),rgb(41, 74, 118));
+    text-align: center;
+    padding: 60px;
+    font-family: Comic Sans MS;
+
+}
+
+.srodek4 {
+    background-image:radial-gradient(rgb(39, 88, 157),rgb(41, 74, 118));
+    text-align: center;
+    padding: 50px;
+    width: auto;
+    font-family: Comic Sans MS;
+    opacity: 90%;
+
+}
+
+.godzina {
+    font-family: Verdana;
+}
+
+.srodek2 {
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    font-size: 110%;
+}
+
+.mapa {
+    width: 80%;
+    padding: 20px;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.slidein {
+    opacity: 1;
+}
+
+
+.dolstrony {
+    background-color: grey;
+    text-align: center;
+}
+
+
+.napisprzymapie {
+    width: auto;
+    color: white;
+    text-align: start;
+    font-size: auto;
+    padding: 70px;
+    line-height: 30px;
+    -webkit-text-stroke: 0.4px black;
+    justify-content: center;
+    background-image:radial-gradient(rgb(36, 110, 76),rgb(31, 91, 63));
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.napisprzymapie1 {
+    width: auto;
+    color: white;
+    text-align: end;
+    padding: 60px;
+    font-size: auto;
+    line-height: 30px;
+    -webkit-text-stroke: 0.4px black;
+    justify-content: center;
+    background-image:radial-gradient(rgb(36, 110, 76),rgb(31, 91, 63));
+
+}
+
+.napisprzymapie2 {
+    width: 100%;
+    color: white;
+    text-align: justify;
+    font-size: 110%;
+    line-height: 30px;
+    -webkit-text-stroke: 0.4px black;
+    justify-content: center;
+}
+
+.napisprzymapie3 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    line-height: 30px;
+    -webkit-text-stroke: 0.4px black;
+    justify-content: center;
+}
+
+
+.srodek5 {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    align-items: center;
+    margin-top: 40px;
+    justify-items: center;
+    width: auto;
+    padding: 30px;
+
+}
+
+.srodek5-1 {
+    width: 100%;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.srodek5-1opacity {
+    opacity: 0;
+}
+
+.srodek5-2 {
+    width: 100%;
+    align-items: left;
+}
+
+.srodek5-3 {
+    width: 100%;
+    text-align: right;
+    vertical-align: right;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.srodek5-3opacity {
+    opacity: 0;
+}
+
+
+.napismiedzyfoto {
+    text-align: center;
+    font-size: 110%;
+    padding: 30px;
+    line-height: 140%;
+    font-weight: 100;
+    width: 80%;
+}
+
+.srodek6 {
+    padding: 100px;
+    text-align: center;
+    width: auto;
+}
+
+.srodek6-napis {
+    width: auto;
+    margin-bottom: -50px;
+    line-height: 140%;
+    font-weight: 100;
+}
+
+.srodek6-6 {
+    padding: 30px;
+    text-align: center;
+    background-image:radial-gradient(rgb(206, 206, 206), rgb(208, 207, 207));
+    font-size: 130%;
+    font-weight: 200;
+    opacity: 70%;
+}
+.tapeta0 {
+    width: 100%;
+}
+
+.tapeta0-0 {
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+
+.tap {
+    width: 100%;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.tapvisable {
+    opacity: 0;
+}
+
+.tapeta2 {
+    width: 100%;
+    margin-top: -20px;
+    opacity: 1;
+    transition: opacity 2s;
+}
+.tap2visable {
+    opacity: 0;
+}
+
+
+.mapa1 {
+    height: 570px;
+    width: 570px;
+    background-color: whitesmoke;
+    
+}
+
+.szkola {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.szkolavisable {
+    opacity: 0;
+}
+
+.dzieci {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 65px;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.dziecivisable {
+    opacity: 0;
+}
+
+.srodek7 {
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    font-size: 110%;
+}
+
+
+
+.srodek6 {
+    padding: 100px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 105%;
+    line-height: 140%;
+}
+
+
+.srodek6-2 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    background-color: whitesmoke;
+}
+
+.srodek6-2-2 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+
+}
+
+.napisciekawostki {
+    font-size: 110%;
+    font-weight: 550;
+}
+
+.white {
+    margin-top: 20px;
+    font-size: 110%;
+    line-height: 130%;
+}
+
+.white1 {
+    margin-top: 20px;
+    padding: 60px;
+}
+
+.lista {
+    text-align: start;
+    line-height: 150%;
+    justify-content: center;
+    font-weight: 100;
+    margin-right: 60px;
+}
+
+.lista1 {
+    text-align: left;
+    margin-left:40px;
+    line-height: 150%;
+    justify-content: center;
+    font-weight: 100;
+    margin-right: 60px;
+    line-height: 200%;
+}
+
+.zwierzeta {
+    font-size: 110%;
+    font-weight: 100;
+    margin-left: 30px;
+    line-height: 150%;
+}
+
+.zwierzeta1 {
+    font-size: 110%;
+    font-weight: 100;
+    margin-left: 30px;
+    text-align: end;
+    margin-right: 30px;
+    line-height: 150%;
+}
+
+.yellow {
+    background-image:radial-gradient(rgb(201, 184, 52),rgb(223, 204, 37));
+    height: 100%;
+}
+
+.yellow1 {
+    background-image:radial-gradient(rgb(201, 184, 52),rgb(223, 204, 37));
+    height: 100%;
+}
+
+
+.srodek8 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+    width: auto;
+}
+
+.srodek8-8 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+    width: auto;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.srodek8-8opacity {
+    opacity: 0;
+}
+
+.srodek8-9 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+    width: auto;
+    opacity: 1;
+    transition: opacity 2s;
+
+}
+
+.srodek8-9opacity {
+    opacity: 0;
+}
+
+.srodek8-10 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+    width: auto;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.srodek8-10opacity {
+    opacity: 0;
+}
+
+.srodek8-11 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+    width: auto;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.srodek8-11opacity {
+    opacity: 0;
+}
+
+.srodek6-1 {
+    width: 100%;
+    align-items: flex-end;
+}
+
+.srodek6-1-1 {
+
+    width: 100%;
+    justify-items: flex-end;
+    align-items: flex-start;
+}
+
+.srodek6-1-1-1 {
+    width: 70%;
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+.srodek6-1-1-1-1 {
+    width: 70%;
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+
+.srodek6-1-1-1visable {
+    opacity: 0;
+}
+.srodek6-1-1-1-1visable {
+    opacity: 0;
+}
+
+.srodek9 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+}
+
+.srodek10 {
+    background-image:radial-gradient(rgb(36, 110, 76),rgb(31, 91, 63));
+    padding: 40px;
+    margin-top: -20px;
+}   
+
+
+
+.srodek11 {
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+.chata {
+    padding: 30px;
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.srodek6-1-3 {
+    width: 100%;
+    align-items: flex-end;
+}
+
+.srodek6-1-1-3 {
+    width: 100%;
+    justify-items: flex-end;
+    align-items: flex-start;
+}
+
+.srodek7-1 {
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    align-items: center;
+}
+
+.napisczarny {
+    background-image:radial-gradient(rgb(37, 40, 38),rgb(28, 30, 30));
+    color: whitesmoke;
+    line-height: 170%;
+    text-align: justify;
+    padding: 50px;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 104%;
+}
+
+.srodek6-7 {
+    padding: 80px;
+    text-align: center;
+    background-image:radial-gradient(rgb(206, 206, 206), rgb(230, 229, 229));
+}
+
+.srodek11-1 {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 80%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.rama {
+    text-decoration: none;
+    outline: none;
+    color: whitesmoke;
+    margin-right: 25px;
+    width: 100%;
+    height: auto;
+    font-weight: 100;
+    -webkit-text-stroke: 0.3px black;
+}
+
+.rama:hover {
+    color:black;
+    cursor: pointer;
+}
+
+.napisprzylogo {
+    font-size: 130%;
+    width: 100%;
+    color: whitesmoke;
+    -webkit-text-stroke: 1px black;
+    margin-top: 17px;
+    
+}
+
+.hide {
+    display: none;
+}
+
+.ethiopianDateTime {
+    font-size: 30px;
+    color: rgb(71, 73, 73);
+    -webkit-text-stroke: 1px black;
+}
+
+.darkmode {
+    margin-right: 15px;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 110%;
+    display:inline;
+    font-size: 10px;
+    margin-left: -10px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    transition: 1s ease;
+}
+
+.darkmode:hover {
+    background-color: #1e1d23;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .napisprzylogo {
+        font-size: 14px;
+        margin-left: 10px;
+
+    }
+    .bodymain {
+        background-size: 180%;
+    }
+    .logo {
+        max-width: 70px;
+        margin-left: 27%;
+    }
+    .srodek2 {
+        display: block;
+    }
+    .srodek5 {
+        display: block;
+    }
+    .napismiedzyfoto {
+        margin-left: 20px;
+    }
+    .srodek7 {
+        display: block;
+    }
+    .srodek6-2 {
+        display: block;
+    }
+    .napisciekawostki {
+        margin-top: 20px;
+    }
+    .white {
+        margin-top: -20px;
+    }
+    .srodek8-8 {
+        display: block;
+    }
+    .srodek8-9 {
+        display: block;
+    }
+    .zwierzeta1 {
+        margin-bottom: 20px;
+        text-align: start;
+    }
+    .lista1 {
+        display:inline;
+    }
+    .srodek6-1-1-1 {
+        width: 90%;
+    }
+    .srodek6-1-1-1-1 {
+        width: 90%;
+    }
+    .srodek8-10 {
+        display: block;
+    }
+    .srodek8-11 {
+        display: block;
+    }
+    .zwierzeta {
+        margin-top: 20px;
+    }
+    .srodek7-1 {
+        display: block;
+    }
+    .darkmode {
+        margin-left: 10%;
+        margin-top: 30%;
+        margin-bottom: 30px;
+    }
+    .napisprzymapie1 {
+        text-align: start;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .napisprzylogo {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    .logo {
+        max-width: 90px;
+    }
+    .bodymain {
+        background-size: 120%;
+    }
+    .srodek2 {
+        display: block;
+    }
+    .mapa {
+        width: 60%;
+    }
+    .srodek5 {
+        display: block;
+    }
+    .napismiedzyfoto {
+        margin-left: 50px;
+    }
+    .srodek7 {
+        display: block;
+    }
+    .srodek7-1 {
+        display: block;
+    }
+    .darkmode {
+        margin-left: 10%;
+        margin-top: 30%;
+        margin-bottom: 100%;
+    }
+    .napisprzymapie1 {
+        text-align: start;
+    }
+}
+
+
+.bodymain.dark-mode {
+    background-image: url('etiopia/darkmode.jpg'); /* źródło: https://www.freepik.com/free-photo/black-texture_973584.htm#query=black%20background&position=16&from_view=keyword&track=ais */
+    color: whitesmoke;
+    transition: 1s ease-in-out;
+}
+
+.bodymain.dark-mode .gorastrony {
+    background-image:radial-gradient(rgb(60, 60, 60),rgb(35, 37, 37));
+
+}
+
+.bodymain.dark-mode .darkmode {
+    background-color: #1e1d23;
+}
+
+.bodymain.dark-mode .darkmode:hover {
+    background-color: whitesmoke;
+}
+
+.bodymain.dark-mode .srodek6-6 {
+    background-image:radial-gradient(rgb(60, 60, 60),rgb(47, 48, 48));
+    color: white;
+}
+
+.bodymain.dark-mode .napisprzymapie {
+    background-image:radial-gradient(rgb(60, 60, 60),rgb(47, 48, 48));
+    color: white;
+}
+
+.bodymain.dark-mode .napisprzymapie1 {
+    background-image:radial-gradient(rgb(60, 60, 60),rgb(47, 48, 48));
+    color: white;
+}
+
+.bodymain.dark-mode .srodek6-2 {
+    background-image:radial-gradient(rgb(60, 60, 60),rgb(47, 48, 48));
+    color: white;
+}
+
+.bodymain.dark-mode .srodek10 {
+    background-image:radial-gradient(rgb(60, 60, 60),rgb(47, 48, 48));
+    color: white;
+}
+
+.bodymain.dark-mode .srodek11-1 {
+    background-image:radial-gradient(rgb(60, 60, 60),rgb(47, 48, 48));
+    color: white;
+}
+
+.bodymain.dark-mode .yellow1 {
+    background-image:radial-gradient(rgb(56, 56, 56),rgb(39, 40, 40));
+    color: white;
+}
+.bodymain.dark-mode .yellow {
+    background-image:radial-gradient(rgb(56, 56, 56),rgb(39, 40, 40));
+    color: white;
+}
+
+.bodymain.dark-mode .srodek4 {
+    background-image:radial-gradient(rgb(64, 63, 63),rgb(73, 73, 73));
+    color: white;
+}
+
+.bodymain.dark-mode .ethiopianDateTime {
+    color: whitesmoke;
+}
