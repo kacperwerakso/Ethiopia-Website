@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 
 .obramowanie {
     -webkit-text-stroke: 1px black;
@@ -645,10 +648,14 @@ html {
     .napisprzylogo {
         font-size: 14px;
         margin-left: 10px;
-
+    }
+    .rama {
+        font-size: 9px;
+        font-weight: 500;
     }
     .bodymain {
-        background-size: 180%;
+        background-size: 300%;
+        
     }
     .logo {
         max-width: 70px;
@@ -714,6 +721,12 @@ html {
     .napisprzymapie1 {
         text-align: start;
     }
+    .yellow1 {
+        display: none;
+    }
+    .white1 {
+        margin-left: 90px;
+    }
 
 }
 
@@ -724,6 +737,10 @@ html {
     }
     .logo {
         max-width: 90px;
+    }
+    .rama {
+        font-size: 15px;
+        font-weight: 500;
     }
     .bodymain {
         background-size: 120%;
@@ -753,6 +770,9 @@ html {
     }
     .napisprzymapie1 {
         text-align: start;
+    }
+    .bodymain {
+        background-size: 200%;
     }
 }
 
