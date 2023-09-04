@@ -42,7 +42,7 @@ function dorzeFun() {
     const imagePosition = tapeta.getBoundingClientRect().top;
     const imagePositionOut = tapeta.getBoundingClientRect().bottom;
 
-    if (imagePosition < 200 && imagePositionOut > 100) {
+    if (imagePosition < 300 && imagePositionOut > 200) {
         tapeta.classList.remove('tapvisable');
     } else {
         tapeta.classList.add('tapvisable');
@@ -54,7 +54,7 @@ function schoolFun() {
     const szkola = document.querySelector('.szkola');
     const imagePosition = szkola.getBoundingClientRect().top;
     const imagePositionOut = szkola.getBoundingClientRect().bottom;
-    if (imagePosition < 400 && imagePositionOut > 100) {
+    if (imagePosition < 500 && imagePositionOut > 100) {
         szkola.classList.remove('szkolavisable');
     } else {
         szkola.classList.add('szkolavisable');
@@ -132,7 +132,7 @@ function twoImage1() {
     const imagePosition2 =  srodek51.getBoundingClientRect().top;
     const imagePositionOut2 = srodek51.getBoundingClientRect().bottom;
 
-    if (imagePosition2 < 200 && imagePositionOut2 > 100) {
+    if (imagePosition2 < 400 && imagePositionOut2 > 100) {
         srodek51.classList.remove('srodek5-1opacity');
     } else {
         srodek51.classList.add('srodek5-1opacity');
@@ -156,7 +156,7 @@ function faunaFun1() {
     const imagePosition2 =  srodek8.getBoundingClientRect().top;
     const imagePositionOut2 = srodek8.getBoundingClientRect().bottom;
 
-    if (imagePosition2 < 300 && imagePositionOut2 > 200) {
+    if (imagePosition2 < 400 && imagePositionOut2 > 200) {
         srodek8.classList.remove('srodek8-8opacity');
     } else {
         srodek8.classList.add('srodek8-8opacity');
@@ -168,7 +168,7 @@ function faunaFun2() {
     const imagePosition2 =  srodek81.getBoundingClientRect().top;
     const imagePositionOut2 = srodek81.getBoundingClientRect().bottom;
 
-    if (imagePosition2 < 300 && imagePositionOut2 > 200) {
+    if (imagePosition2 < 400 && imagePositionOut2 > 200) {
         srodek81.classList.remove('srodek8-9opacity');
     } else {
         srodek81.classList.add('srodek8-9opacity');
@@ -181,7 +181,7 @@ function omoFun1() {
     const imagePosition2 =  srodek810.getBoundingClientRect().top;
     const imagePositionOut2 = srodek810.getBoundingClientRect().bottom;
 
-    if (imagePosition2 < 300 && imagePositionOut2 > 200) {
+    if (imagePosition2 < 500 && imagePositionOut2 > 200) {
         srodek810.classList.remove('srodek8-10opacity');
     } else {
         srodek810.classList.add('srodek8-10opacity');
@@ -193,7 +193,7 @@ function omoFun2() {
     const imagePosition2 =  srodek811.getBoundingClientRect().top;
     const imagePositionOut2 = srodek811.getBoundingClientRect().bottom;
 
-    if (imagePosition2 < 300 && imagePositionOut2 > 200) {
+    if (imagePosition2 < 500 && imagePositionOut2 > 200) {
         srodek811.classList.remove('srodek8-11opacity');
     } else {
         srodek811.classList.add('srodek8-11opacity');
