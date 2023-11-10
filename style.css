@@ -1,3 +1,6 @@
+/*Zdjęcia na stronie zostały wykonane przeze mnie */
+/*Ilośc MB zdjęć jest niedopuszczalna, jednak chciałem aby pozostały w tej rozdzielczości dla efektu wizualnego*/
+
 body {
     margin: 0;
 }
@@ -169,11 +172,10 @@ body {
 .napisprzymapie2 {
     width: 100%;
     color: white;
-    text-align: justify;
     font-size: 110%;
     line-height: 30px;
     -webkit-text-stroke: 0.4px black;
-    justify-content: center;
+
 }
 
 .napisprzymapie3 {
@@ -562,9 +564,9 @@ body {
     background-image:radial-gradient(rgb(37, 40, 38),rgb(28, 30, 30));
     color: whitesmoke;
     line-height: 170%;
-    text-align: justify;
+    text-align: start;
     padding: 50px;
-    justify-content: center;
+
     font-weight: 100;
     font-size: 104%;
 }
@@ -643,6 +645,29 @@ html {
     cursor: pointer;
 }
 
+
+@media (min-width: 300px) and (max-width: 499px) {
+    .gorastrony {
+        padding: 10px 5px;
+    }
+
+    .napisprzylogo {
+        margin-top: 5px;
+    }
+
+    .bodymain {
+        background-color: whitesmoke;
+        font-family:Helvetica;
+        background-size: cover;
+        background-image: url('./etiopia/lightmodeMobile.png');
+        background-attachment: fixed;
+        min-height: 1000px;
+    }
+
+    .zwierzeta {
+        padding: 30px;
+    }
+}
 
 @media (max-width: 600px) {
     .napisprzylogo {
